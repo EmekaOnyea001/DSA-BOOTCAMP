@@ -42,7 +42,7 @@ Salary distribution of employees grouped by a band of $10,000
 
 In order to identify key areas that could affect the image of Palmoria, there is a need to leverage on business intelligence applications. For this i use microsoft power BI for my analysis and visualisation.
 
-DATA UNDERSTANDING
+**DATA UNDERSTANDING**
 
 Two dataset was provided for me, which was inform of csv(comma seperated values) while the other was in microsoft excel . The csv dataset is "emp_data” while the excel file and “Bonus Rules”.
 
@@ -56,7 +56,7 @@ An overview of the datasets are shown below;
 
 ![image](https://github.com/user-attachments/assets/4865ad8b-3c71-4ffe-a6a5-4575217c6fe4)
 
-Data Preparation in data Query
+**Data Preparation in Power Query**
 
 Power query is used to transform and clean data for analysis. Firstly, i explored the data composition so as to know if the data cleaning is needed. By doing this i leveraged on the data profiling distributor feature provided by BI. I checked for any structural and observation errors in each given column and how many unique values there where, I found no errors, I also ensured the data type was in the right format for each column as it is imperative to be able to analyze effectively and generate accurate result.
 
@@ -67,6 +67,23 @@ Replace the empty gender with Others as required by Palmoria.
 filter out the null rows in the departmental column.
 Filter out the empty rows in the salary column.
 
+![image](https://github.com/user-attachments/assets/856a28ce-c6f4-4375-b7c3-9e0181ba369c)
+
+![image](https://github.com/user-attachments/assets/81364a67-f239-4f89-80e9-a404688e23cb)
+
+![image](https://github.com/user-attachments/assets/23849747-522f-4a27-ace6-d233cbcf46c7)
+
+
+
+**DATA MODELLING**
+
+The last step which i took before analyzing the data was to create a relationship between the tables i created in the previous step. This will allow me to drill and slice through the data for efffective and visualization analysis.
+
+PowerBI is optimized to work with data models, data models are important as they help organize tables of data based on groupings or relationships to reduce redundancy and optimize efficiency.
+
+In creating a relationship between the various tables which i already created I had make sure the tables which had primary keys where uniquely identifiable (Removing duplicates with the primary table). Rating and department were primary tables. Eitherway the DSF_emp_data table could be use to connect to both rating and department table or could be use single handedly when preparing analysis. I then close and apply all data preparation applied steps for analysis in the power BI desktop.
+
+In creating the relationship, Firstly i deleted the relationship already created by power BI and I connected both tables using the model icon near the dashboard. I connected the primary keys to the tables were they share the same identifier.
 The approach
 
 I followed the CRISP-DM approach in modelling the solution for the challenge facing Palmoria.
@@ -74,8 +91,19 @@ I followed the CRISP-DM approach in modelling the solution for the challenge fac
 ![image](https://github.com/user-attachments/assets/108488cd-eec8-49f8-8308-aa78b4d59a4c)
 
 
+To enable the management of Palmoria make quality decision as regards gender distribution, insights on ratings and gender pay gap, i summarised below important insights to take note which can cause data driven decisions in future.
+
+The total employees in Palmoria group is 946(male 465, female 441 and unspecified 40), while the diversity ratio is 49% worldwide.
+The total salary of employees worldwide is over 70 million while the average pay of each employee is over 73,000 thousand dollar.
+The marketing, engineering and sales department appears to have a negative gender pay gap. Engineering department which has more male than female has the highest pay gap of over 7,505.16 dollar.
+Over 654 employees earn below 90,000 dollar in all the regions, while a total number of 292 employees earns 90,000 and above.
 
 
+**DATA VISUALIZATION**
+
+I created a strategic interactive report to communicate effectively this insights generated to management and all stakeholder(s) of the business by taking into consideration the techniques and steps involved in data visualization.
+
+To interact with the strategic report click the link below .
 
 
 
