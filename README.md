@@ -19,9 +19,9 @@ Employee Distribution and Performance Measurement
 
 The Palmoria group is facing issues bordering on gender inequality in its 3 regions. To make matter worse, the media has recently published in the news with the headline “Palmoria, the Manufacturing Patriarchy”. This doesn’t look good for the stakeholders as they look to move the business to other regions in the future.
 
-As a hr data analyst,i will examine the data provided and use the appropriate visualization tools to represent my insights and make a presentation to the management team to show to the public and make vital decisions in the area they are lacking.
+As a data analyst,i will examine the data provided and use the appropriate visualization tools to represent my insights and make a presentation to the management team to show to the public and make vital decisions in the area they are lacking.
 
-Solution
+**Solution**
 
 I analyse the available data from a performance analysis perspective and also from diversity perspective in all the regions. In here management and stakeholders could choose make insightful decisions by evaluating the following;
 
@@ -33,6 +33,8 @@ Salary category by gender and regions.
 Salary distribution of employees grouped by a band of $10,000
 
 ![image](https://github.com/user-attachments/assets/c2ec8aaa-6316-44f1-b260-99d9e329f641)
+
+![image](https://github.com/user-attachments/assets/d14a9459-62fe-41a0-b2fb-8b57a677db08)
 
 ![image](https://github.com/user-attachments/assets/87c77103-2a3d-4cbe-aeab-688e6d374437)
 
@@ -99,11 +101,6 @@ The marketing, engineering and sales department appears to have a negative gende
 Over 654 employees earn below 90,000 dollar in all the regions, while a total number of 292 employees earns 90,000 and above.
 
 
-**DATA VISUALIZATION**
-
-I created a strategic interactive report to communicate effectively this insights generated to management and all stakeholder(s) of the business by taking into consideration the techniques and steps involved in data visualization.
-
-To interact with the strategic report click the link below .
 
 
 
