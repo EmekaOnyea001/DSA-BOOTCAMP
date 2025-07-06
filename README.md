@@ -1,8 +1,6 @@
-# DSA-DATA ANALYTICS PROJECT
-Capstone Project — Employee Analysis for Palmoria Group.
-Target Audience: Management- Stakeholders, Employees & Public.
+# DSA-Capstone Project — Employee Analysis Palmoria Group
 
-Tools used: Microsoft Power BI.
+Analytical Tools used: Microsoft Power BI.
 
 **Introduction**
 
